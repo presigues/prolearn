@@ -1,0 +1,10 @@
+@font-face { font-family: font1; src: url("Square.ttf"); }
+
+#title{
+    font-family: font1;
+    font-size: 40px;
+    color: white;
+    position: fixed;
+    left: 40px;
+    top: 5px;
+}

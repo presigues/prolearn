@@ -1,3 +1,7 @@
-if(document.getElementById("input11").innerText == "<h1> Hello World! </h1>" ){
-    document.getElementById("input11").innerText = "CORRECT"
+function grabvalue(){
+
+var nameValue = document.getElementById("input11comfirm").value;
+
+console.log(nameValue);
+
 }

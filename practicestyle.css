@@ -142,3 +142,45 @@
     top: 250px;
     margin-right: 200px;
 }
+
+#head2{
+    font-family: font1;
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    left: 530px;
+    top: 340px;
+    margin-right: 200px;
+}
+
+#input11{
+
+    background-color:rgb(10, 52, 62);
+    border: 2px solid rgb(26, 196, 134);
+    color: white;
+    font-family: font1;
+    margin-top: 250px;
+    margin-left: 30px;
+    width: 500px;
+    height: 25px;
+
+}
+
+#input11comfirm{
+    font-family: font1;
+    font-size: 15px;
+    color: white;
+    width: 100px;
+    height: 25px;
+    position: fixed;
+    right: 700px;
+    top: 403px;
+    background-color: rgb(10, 52, 62);
+    border: 2px solid rgb(26, 196, 134);
+    transition-duration: 0.4s;
+}
+
+#input11comfirm:hover{
+    background-color: rgb(2, 7, 12);
+    border-color: rgb(2, 7, 12);
+}

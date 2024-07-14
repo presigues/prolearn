@@ -5,8 +5,8 @@
     font-size: 40px;
     color: white;
     position: fixed;
-    left: 40px;
-    top: 5px;
+    left: 30px;
+    top: -25px;
 }
 
 #basics1{
@@ -18,8 +18,8 @@
     position: fixed;
     left: 0px;
     top: 150px;
-    background-color: rgb(6, 19, 31);
-    border: 2px solid rgb(6, 19, 31);
+    background-color: rgb(10, 52, 62);
+    border: 2px solid rgb(10, 52, 62);
     transition-duration: 0.4s;
 }
 
@@ -38,8 +38,8 @@
     position: fixed;
     left: 0px;
     top: 200px;
-    background-color: rgb(6, 19, 31);
-    border: 2px solid rgb(6, 19, 31);
+    background-color: rgb(10, 52, 62);
+    border: 2px solid rgb(10, 52, 62);
     transition-duration: 0.4s;
 }
 
@@ -58,8 +58,8 @@
     position: fixed;
     left: 0px;
     top: 250px;
-    background-color: rgb(6, 19, 31);
-    border: 2px solid rgb(6, 19, 31);
+    background-color: rgb(10, 52, 62);
+    border: 2px solid rgb(10, 52, 62);
     transition-duration: 0.4s;
 }
 
@@ -74,15 +74,71 @@
     font-size: 40px;
     color: white;
     position: fixed;
-    left: 1000px;
+    left: 500px;
     top: 5px;
 }
 
+#nav{
+    background-color: rgb(10, 52, 62);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 2000px;
+    height: 80px;
+}
+
+#git{
+    width: 60px;
+    position: fixed;
+    top: 10px;
+    right: 40px;
+}
+
+#html{
+    font-family: font1;
+    font-size: 30px;
+    color: white;
+    width: 120px;
+    height: 80px;
+    position: fixed;
+    left: 500px;
+    top: 0px;
+    background-color: rgb(10, 52, 62);
+    border: 2px solid rgb(10, 52, 62);
+    transition-duration: 0.4s;
+}
+
+#html:hover{
+    background-color: rgb(2, 7, 12);
+    border-color: rgb(2, 7, 12);
+}
+
+
 #code{
-    background-color: rgb(6, 19, 31);
+    background-color: rgb(10, 52, 62);
     width: 1200px;
     height: 700px;
     position: fixed;
     left: 500px;
     top: 150px;
+}
+
+#intro{
+    font-family: font1;
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    left: 530px;
+    top: 160px;
+    margin-right: 200px;
+}
+
+#head{
+    font-family: font1;
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    left: 530px;
+    top: 230px;
+    margin-right: 200px;
 }

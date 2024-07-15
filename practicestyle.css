@@ -13,61 +13,45 @@
     font-family: font1;
     font-size: 20px;
     color: white;
-    width: 300px;
+    width: 320px;
     height: 50px;
     position: fixed;
-    left: 0px;
+    left: -15px;
     top: 150px;
     background-color: rgb(10, 52, 62);
     border: 2px solid rgb(10, 52, 62);
     transition-duration: 0.4s;
+    border-radius: 15px;
 }
 
 #basics1:hover{
     background-color: rgb(2, 7, 12);
     border-color: rgb(2, 7, 12);
-    width: 320px;
+    width: 330px;
 }
 
 #basics2{
     font-family: font1;
     font-size: 20px;
     color: white;
-    width: 300px;
+    width: 320px;
     height: 50px;
     position: fixed;
-    left: 0px;
+    left: -15px;
     top: 200px;
     background-color: rgb(10, 52, 62);
     border: 2px solid rgb(10, 52, 62);
     transition-duration: 0.4s;
+    border-radius: 15px;
 }
 
 #basics2:hover{
     background-color: rgb(2, 7, 12);
     border-color: rgb(2, 7, 12);
-    width: 320px;
+    width: 330px;
 }
 
-#basics3{
-    font-family: font1;
-    font-size: 20px;
-    color: white;
-    width: 300px;
-    height: 50px;
-    position: fixed;
-    left: 0px;
-    top: 250px;
-    background-color: rgb(10, 52, 62);
-    border: 2px solid rgb(10, 52, 62);
-    transition-duration: 0.4s;
-}
 
-#basics3:hover{
-    background-color: rgb(2, 7, 12);
-    border-color: rgb(2, 7, 12);
-    width: 320px;
-}
 
 #lvltitle{
     font-family: font1;
@@ -157,15 +141,15 @@
     position: fixed;
     right: 250px;
     top: 285px;
-    background-color: rgb(10, 52, 62);
-    border: 2px solid rgb(26, 196, 134);
-    transition-duration: 0.4s;
+    background-color: rgb(7, 35, 43);
+    border: 2px solid rgb(7, 35, 43);
+   
+    transition-duration: 0.8s;
     border-radius: 15px;
 }
 
 #input11comfirm:hover{
-    background-color: rgb(2, 7, 12);
-    border-color: rgb(2, 7, 12);
+    border-color:rgb(26, 196, 134);
 }
 
 #question{
@@ -173,8 +157,39 @@
     font-size: 30px;
     color: white;
     position: fixed;
-    top: 250px;
+    top: 253px;
     left: 550px;
 
     margin-right: 500px;
+}
+
+#elementnav{
+    background-color: rgb(7, 35, 43);
+    position: fixed;
+    left: 500px;
+    top: 150px;
+    width: 1200px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+#elementtitle{
+    font-family: font1;
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    top: 140px;
+    left: 550px;
+}
+
+#quespanel{
+    background-color: rgb(7, 35, 43);
+    position: fixed;
+    left: 520px;
+    top: 260px;
+
+    width: 900px;
+    height: 120px;
+
+    border-radius: 15px;
 }

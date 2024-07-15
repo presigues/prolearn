@@ -50,6 +50,26 @@
     border-color: rgb(2, 7, 12);
     width: 330px;
 }
+#basics3{
+    font-family: font1;
+    font-size: 20px;
+    color: white;
+    width: 320px;
+    height: 50px;
+    position: fixed;
+    left: -15px;
+    top: 250px;
+    background-color: rgb(10, 52, 62);
+    border: 2px solid rgb(10, 52, 62);
+    transition-duration: 0.4s;
+    border-radius: 15px;
+}
+
+#basics3:hover{
+    background-color: rgb(2, 7, 12);
+    border-color: rgb(2, 7, 12);
+    width: 330px;
+}
 
 
 
@@ -78,24 +98,6 @@
     right: 40px;
 }
 
-#html{
-    font-family: font1;
-    font-size: 30px;
-    color: white;
-    width: 120px;
-    height: 80px;
-    position: fixed;
-    left: 500px;
-    top: 0px;
-    background-color: rgb(10, 52, 62);
-    border: 2px solid rgb(10, 52, 62);
-    transition-duration: 0.4s;
-}
-
-#html:hover{
-    background-color: rgb(2, 7, 12);
-    border-color: rgb(2, 7, 12);
-}
 
 
 #code{

@@ -154,7 +154,7 @@
 
 #question{
     font-family: font1;
-    font-size: 30px;
+    font-size: 24px;
     color: white;
     position: fixed;
     top: 253px;
@@ -188,8 +188,42 @@
     left: 520px;
     top: 260px;
 
-    width: 900px;
-    height: 120px;
+    width: 850px;
+    height: 100px;
 
     border-radius: 15px;
+}
+
+#answr{
+    background-color: rgb(7, 35, 43);
+    font-size: 15px;
+    font-family: font1;
+    color: white;
+    position: fixed;
+    top: 400px;
+    left: 520px;
+    width: 500px;
+    height: 30px;
+    border: 2px solid rgb(7, 35, 43);
+    border-radius: 15px;
+}
+
+#enter{
+    font-family: font1;
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    height: 30px;
+    position: fixed;
+    right: 600px;
+    top: 405px;
+    background-color: rgb(7, 35, 43);
+    border: 2px solid rgb(7, 35, 43);
+   
+    transition-duration: 0.8s;
+    border-radius: 15px;
+}
+
+#enter:hover{
+    border-color:rgb(26, 196, 134);
 }

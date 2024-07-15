@@ -130,3 +130,5 @@ function written(){
 document.getElementById('question').innerHTML = "Write the Sentence : " + wordw + " as a " + elementword;
 }
 
+const answr = element + " " + wordw + " " + elementend;
+

@@ -132,4 +132,7 @@ document.getElementById('question').innerHTML = "Write the Sentence : " + wordw 
 
 const answr = element + " " + wordw + " " + elementend;
 
-
+function retrevial(){
+let submitted = document.getElementById("answr").innerHTML;
+console.log(submitted);
+}

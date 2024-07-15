@@ -1,3 +1,9 @@
+
+
+
+
+
+
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -113,8 +119,14 @@ function printFinal(){
     console.log("Write the Sentence : " + wordw + " as a " + elementword);
 }
 
+
 function comp(){
     ElementSelection();
     WordSelection();
     printFinal();
 }
+
+function written(){
+document.getElementById('question').innerHTML = "Write the Sentence : " + wordw + " as a " + elementword;
+}
+

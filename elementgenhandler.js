@@ -134,39 +134,24 @@ const answr = element + " " + wordw + " " + elementend;
 
 function thehardpart(){
 
-    option1 = element + " " + wordw + " " + elementend;
+    option1 = "element + wordw + elementend";
+    console.log(element + wordw + elementend)
 
 // option 2
-    option2element;
-    option2elementend;
-    option2word;
-    option2final;
- 
-
+    
+    option2elementend = "";
+    
+    option2final = "";
+ option2word = "";
+option2element = "";
     option2elementnum = getRandomInt(1,7);
     option2wordnum = getRandomInt(1, 10);
 
-// option 3
 
-option3element;
-option3elementend;
-option3word;
-option3final;
 
-option3elementnum = getRandomInt(1,7);
-option3wordnum = getRandomInt(1, 10);
 
-// option 4
 
-option4element;
-option4elementend;
-option4word;
-option4final;
-
-option4elementnum = getRandomInt(1,7);
-option4wordnum = getRandomInt(1, 10);
-
-    do{ // option 2 hard part
+    // option 2 hard part
 
     switch(option2wordnum){
         case 1:
@@ -249,11 +234,20 @@ option4wordnum = getRandomInt(1, 10);
         break;
       }
 
-      option2final = option2element + " " +  option2word + " " + option2elementend;
+      option2final = "option2element  +  option2word + option2elementend";
+      console.log(option2element  +  option2word + option2elementend);
 
- }while(option2final != option1) // makes sure option 2 isnt identical to option 1
-   
- do{ // option 3 hard part
+ // makes sure option 2 isnt identical to option 1
+
+   option3element ="";
+option3elementend="";
+option3word="";
+option3final="";
+
+option3elementnum = getRandomInt(1,7);
+option3wordnum = getRandomInt(1, 10);
+
+  // option 3 hard part
 
     switch(option3wordnum){
         case 1:
@@ -336,11 +330,20 @@ option4wordnum = getRandomInt(1, 10);
         break;
       }
 
-      option3final = option3element + " " +  option3word + " " + option3elementend;
+      option3final = "option3element  +  option3word  + option3elementend";
+      console.log(option3element  +  option3word  + option3elementend)
 
- }while(option3final != option1 || option2final ) // makes sure option 2 isnt identical to option 1 / option 2
+ // makes sure option 2 isnt identical to option 1 / option 2
 
- do{ // option 4 hard part
+option4element="";
+option4elementend="";
+option4word="";
+option4final="";
+
+option4elementnum = getRandomInt(1,7);
+option4wordnum = getRandomInt(1, 10);
+
+  // option 4 hard part
 
     switch(option4wordnum){
         case 1:
@@ -423,9 +426,10 @@ option4wordnum = getRandomInt(1, 10);
         break;
       }
 
-      option4final = option4element + " " +  option4word + " " + option4elementend;
+      option4final = "option4element +  option4word + option4elementend";
+      console.log(option4element +  option4word + option4elementend)
 
- }while(option4final != option1 || option2final || option3final ) // makes sure option 2 isnt identical to option 1 / option 2 / option 3
+
 
  console.log("FINAL CHOICES - " + option1 + " " + option2final + " " + option3final + " " + option4final);
     

@@ -63,7 +63,7 @@ elementword;
     break;
     case 7:
     elementword = "Paragraph";
-    element = "<&lt;p&gt";
+    element = "&lt;p&gt";
     elementend = "&lt;/p&gt";
     console.log("Element Chosen : " + elementword);
     break;
@@ -170,7 +170,7 @@ while(option2elementnum == elementnum){
         break;
         case 3:
             option2element = "&lt;h3&gt;";
-            option2elementend = "&lt;/h5&gt;";
+            option2elementend = "&lt;/h3&gt;";
             console.log("Option 2 Element Chosen : " + option2element);
         break;
         case 4:
@@ -317,6 +317,14 @@ while(option4elementnum == elementnum || option4elementnum == option2elementnum 
 
  console.log("FINAL CHOICES - " + element + wordw + elementend + " " + option2element  +  wordw + option2elementend + " " + option3element  +  wordw  + option3elementend + " " + option4element +  wordw + option4elementend);
     
+
+
+
+
+
+}
+
+function thescrambler(option4element, option4elementend , option3elementend ,option3element, option2element,option2elementend, element, elementend, wordw ){
 option1 = getRandomInt(1,4);
 
     option2 = getRandomInt(1,4);
@@ -325,7 +333,7 @@ option1 = getRandomInt(1,4);
     }
     
     option3 = getRandomInt(1,4);
-    while(option3 == option1 || option3 == option1){
+    while(option3 == option1 || option3 == option2){
         option3 = getRandomInt(1,4);
     }
 
@@ -400,8 +408,10 @@ option1 = getRandomInt(1,4);
                         document.getElementById("option4").innerHTML = option4element +  wordw + option4elementend;
                         break;
     }
+}
 
-
+function theanswer(){
+    
 }
 
 function reseteverything(){
@@ -411,4 +421,5 @@ function reseteverything(){
     document.getElementById("option4").innerHTML = "...";
 
 }
+
 

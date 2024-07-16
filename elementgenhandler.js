@@ -15,12 +15,14 @@ elementword;
   elementend;
   wordw;
 
-  function ElementSelection(){
-
-  let Element = getRandomInt(1,7)
   
 
-  switch(Element){ // chose element 
+  function ElementSelection(){
+
+  let elementnum = getRandomInt(1,7)
+  
+
+  switch(elementnum){ // chose element 
     case 1:
     elementword = "Heading 1";
     element = "<h1>";
@@ -132,7 +134,7 @@ document.getElementById('question').innerHTML = "Write the Sentence : " + wordw 
 
 const answr = element + " " + wordw + " " + elementend;
 
-function thehardpart(){
+function thehardpart(elementnum){
 
     option1 = "element + wordw + elementend";
     console.log(element + wordw + elementend)
@@ -144,57 +146,12 @@ function thehardpart(){
     option2final = "";
  option2word = "";
 option2element = "";
+
+
+while(option2elementnum == elementnum || option2elementnum == option3elementnum || option2elementnum == option4elementnum){
     option2elementnum = getRandomInt(1,7);
-    option2wordnum = getRandomInt(1, 10);
-
-
-
-
-
+   }
     // option 2 hard part
-
-    switch(option2wordnum){
-        case 1:
-            option2word = "Hello World!";
-            console.log("Option2 Word Chosen : " + option2word);
-            break;
-            case 2:
-                option2word = "Hack Club!";
-            console.log("Option2 Word Chosen : " + option2word);
-                break;
-                case 3:
-                    option2word= "Welcome to the World of CODE";
-            console.log("Option2 Word Chosen : " + option2word);
-                    break;
-                    case 4:
-                        option2word = "Would you Rather?...";
-            console.log("Option2 Word Chosen : " + option2word);
-                        break;
-                        case 5:
-                            option2word = "What is your Name?";
-            console.log("Option2 Word Chosen : " + option2word);
-                            break;
-                            case 6:
-                                option2word = "html is very cool";
-            console.log("Option2 Word Chosen : " + option2word);
-                                break;
-                                case 7:
-                                    option2word = "First Robotics Competition!";
-            console.log("Option2 Word Chosen : " + option2word);
-                                    break;
-                                    case 8:
-                                        option2word = "FIRST!";
-            console.log("Option2 Word Chosen : " + option2word);
-                                        break;
-                                        case 9:
-                                            option2word = "Welcome to my Website";
-            console.log("Option2 Word Chosen : " + option2word);
-                                            break;
-                                            case 10:
-                                                option2word = "Coding is Cool";
-            console.log("Option2 Word Chosen : " + option2word);
-                                                break;
-    }
 
     switch(option2elementnum){ // chose element 
         case 1:
@@ -234,8 +191,8 @@ option2element = "";
         break;
       }
 
-      option2final = "option2element  +  option2word + option2elementend";
-      console.log(option2element  +  option2word + option2elementend);
+      option2final = "option2element  +  wordw + option2elementend";
+      console.log(option2element  +  wordw + option2elementend);
 
  // makes sure option 2 isnt identical to option 1
 
@@ -244,54 +201,13 @@ option3elementend="";
 option3word="";
 option3final="";
 
+option3elementnum = 0;
+
+while(option3elementnum == elementnum || option3elementnum == option2elementnum || option3elementnum == option4elementnum){
 option3elementnum = getRandomInt(1,7);
-option3wordnum = getRandomInt(1, 10);
+}
 
   // option 3 hard part
-
-    switch(option3wordnum){
-        case 1:
-            option3word = "Hello World!";
-            console.log("Option3 Word Chosen : " + option3word);
-            break;
-            case 2:
-                option3word = "Hack Club!";
-            console.log("Option3 Word Chosen : " + option3word);
-                break;
-                case 3:
-                    option3word= "Welcome to the World of CODE";
-            console.log("Option3 Word Chosen : " + option3word);
-                    break;
-                    case 4:
-                        option3word = "Would you Rather?...";
-            console.log("Option3 Word Chosen : " + option3word);
-                        break;
-                        case 5:
-                            option3word = "What is your Name?";
-            console.log("Option3 Word Chosen : " + option3word);
-                            break;
-                            case 6:
-                                option3word = "html is very cool";
-            console.log("Option3 Word Chosen : " + option3word);
-                                break;
-                                case 7:
-                                    option3word = "First Robotics Competition!";
-            console.log("Option3 Word Chosen : " + option3word);
-                                    break;
-                                    case 8:
-                                        option3word = "FIRST!";
-            console.log("Option3 Word Chosen : " + option3word);
-                                        break;
-                                        case 9:
-                                            option3word = "Welcome to my Website";
-            console.log("Option3 Word Chosen : " + option3word);
-                                            break;
-                                            case 10:
-                                                option3word = "Coding is Cool";
-            console.log("Option3 Word Chosen : " + option3word);
-                                                break;
-    }
-
     switch(option3elementnum){ // chose element 
         case 1:
         option3element = "<h1>";
@@ -330,8 +246,8 @@ option3wordnum = getRandomInt(1, 10);
         break;
       }
 
-      option3final = "option3element  +  option3word  + option3elementend";
-      console.log(option3element  +  option3word  + option3elementend)
+      option3final = "option3element  +  wordw  + option3elementend";
+      console.log(option3element  +  wordw  + option3elementend)
 
  // makes sure option 2 isnt identical to option 1 / option 2
 
@@ -340,54 +256,16 @@ option4elementend="";
 option4word="";
 option4final="";
 
-option4elementnum = getRandomInt(1,7);
-option4wordnum = getRandomInt(1, 10);
+option4elementnum = 0;
+
+while(option4elementnum == elementnum || option4elementnum == option2elementnum || option4elementnum == option3elementnum){
+    option4elementnum = getRandomInt(1,7);
+}
+
 
   // option 4 hard part
 
-    switch(option4wordnum){
-        case 1:
-            option4word = "Hello World!";
-            console.log("Option4 Word Chosen : " + option4word);
-            break;
-            case 2:
-                option4word = "Hack Club!";
-            console.log("Option4 Word Chosen : " + option4word);
-                break;
-                case 3:
-                    option4word= "Welcome to the World of CODE";
-            console.log("Option4 Word Chosen : " + option4word);
-                    break;
-                    case 4:
-                        option4word = "Would you Rather?...";
-            console.log("Option4 Word Chosen : " + option4word);
-                        break;
-                        case 5:
-                            option4word = "What is your Name?";
-            console.log("Option4 Word Chosen : " + option4word);
-                            break;
-                            case 6:
-                                option4word = "html is very cool";
-            console.log("Option4 Word Chosen : " + option4word);
-                                break;
-                                case 7:
-                                    option4word = "First Robotics Competition!";
-            console.log("Option4 Word Chosen : " + option4word);
-                                    break;
-                                    case 8:
-                                        option4word = "FIRST!";
-            console.log("Option4 Word Chosen : " + option4word);
-                                        break;
-                                        case 9:
-                                            option4word = "Welcome to my Website";
-            console.log("Option4 Word Chosen : " + option4word);
-                                            break;
-                                            case 10:
-                                                option4word = "Coding is Cool";
-            console.log("Option4 Word Chosen : " + option4word);
-                                                break;
-    }
-
+    
     switch(option4elementnum){ // chose element 
         case 1:
         option4element = "<h1>";
@@ -426,11 +304,11 @@ option4wordnum = getRandomInt(1, 10);
         break;
       }
 
-      option4final = "option4element +  option4word + option4elementend";
-      console.log(option4element +  option4word + option4elementend)
+      option4final = "option4element +  wordw + option4elementend";
+      console.log(option4element +  wordw + option4elementend)
 
 
 
- console.log("FINAL CHOICES - " + option1 + " " + option2final + " " + option3final + " " + option4final);
+ console.log("FINAL CHOICES - " + element + wordw + elementend + " " + option2element  +  wordw + option2elementend + " " + option3element  +  wordw  + option3elementend + " " + option4element +  wordw + option4elementend);
     
 }

@@ -134,7 +134,7 @@ const answr = element + " " + wordw + " " + elementend;
 
 function thehardpart(){
 
-    option1 = answr;
+    option1 = element + " " + wordw + " " + elementend;
 
 // option 2
     option2element;
@@ -253,91 +253,180 @@ option4wordnum = getRandomInt(1, 10);
 
  }while(option2final != option1) // makes sure option 2 isnt identical to option 1
    
- do{ // option 2 hard part
+ do{ // option 3 hard part
 
     switch(option3wordnum){
         case 1:
             option3word = "Hello World!";
-            console.log("Option2 Word Chosen : " + option2word);
+            console.log("Option3 Word Chosen : " + option3word);
             break;
             case 2:
                 option3word = "Hack Club!";
-            console.log("Option2 Word Chosen : " + option2word);
+            console.log("Option3 Word Chosen : " + option3word);
                 break;
                 case 3:
                     option3word= "Welcome to the World of CODE";
-            console.log("Option2 Word Chosen : " + option2word);
+            console.log("Option3 Word Chosen : " + option3word);
                     break;
                     case 4:
                         option3word = "Would you Rather?...";
-            console.log("Option2 Word Chosen : " + option2word);
+            console.log("Option3 Word Chosen : " + option3word);
                         break;
                         case 5:
                             option3word = "What is your Name?";
-            console.log("Option2 Word Chosen : " + option2word);
+            console.log("Option3 Word Chosen : " + option3word);
                             break;
                             case 6:
                                 option3word = "html is very cool";
-            console.log("Option2 Word Chosen : " + option2word);
+            console.log("Option3 Word Chosen : " + option3word);
                                 break;
                                 case 7:
                                     option3word = "First Robotics Competition!";
-            console.log("Option2 Word Chosen : " + option2word);
+            console.log("Option3 Word Chosen : " + option3word);
                                     break;
                                     case 8:
                                         option3word = "FIRST!";
-            console.log("Option2 Word Chosen : " + option2word);
+            console.log("Option3 Word Chosen : " + option3word);
                                         break;
                                         case 9:
                                             option3word = "Welcome to my Website";
-            console.log("Option2 Word Chosen : " + option2word);
+            console.log("Option3 Word Chosen : " + option3word);
                                             break;
                                             case 10:
                                                 option3word = "Coding is Cool";
-            console.log("Option2 Word Chosen : " + option2word);
+            console.log("Option3 Word Chosen : " + option3word);
                                                 break;
     }
 
-    switch(option2elementnum){ // chose element 
+    switch(option3elementnum){ // chose element 
         case 1:
-        option2element = "<h1>";
-        option2elementend = "</h1>";
-        console.log("Option 2 Element Chosen : " + option2element);
+        option3element = "<h1>";
+        option3elementend = "</h1>";
+        console.log("Option 2 Element Chosen : " + option3element);
         break;
         case 2:
-            option2element = "<h2>";
-            option2elementend = "</h2>";
-            console.log("Option 2 Element Chosen : " + option2element);
+            option3element = "<h2>";
+            option3elementend = "</h2>";
+            console.log("Option 2 Element Chosen : " + option3element);
         break;
         case 3:
-            option2element = "<h3>";
-            option2elementend = "</h3>";
-            console.log("Option 2 Element Chosen : " + option2element);
+            option3element = "<h3>";
+            option3elementend = "</h3>";
+            console.log("Option 2 Element Chosen : " + option3element);
         break;
         case 4:
-            option2element = "<h4>";
-            option2elementend = "</h4>";
-            console.log("Option 2 Element Chosen : " + option2element);
+            option3element = "<h4>";
+            option3elementend = "</h4>";
+            console.log("Option 2 Element Chosen : " + option3element);
         break;
         case 5:
-            option2element = "<h5>";
-            option2elementend = "</h5>";
-            console.log("Option 2 Element Chosen : " + option2element);
+            option3element = "<h5>";
+            option3elementend = "</h5>";
+            console.log("Option 2 Element Chosen : " + option3element);
         break;
         case 6:
-            option2element = "<h6>";
-            option2elementend = "</h6>";
-            console.log("Option 2 Element Chosen : " + option2element);
+            option3element = "<h6>";
+            option3elementend = "</h6>";
+            console.log("Option 2 Element Chosen : " + option3element);
         break;
         case 7:
-            option2element = "<p>";
-            option2elementend = "</p>";
-            console.log("Option 2 Element Chosen : " + option2element);
+            option3element = "<p>";
+            option3elementend = "</p>";
+            console.log("Option 2 Element Chosen : " + option3element);
         break;
       }
 
-      option2final = option2element + " " +  option2word + " " + option2elementend;
+      option3final = option3element + " " +  option3word + " " + option3elementend;
 
- }while(option2final != option1) // makes sure option 2 isnt identical to option 1
+ }while(option3final != option1 || option2final ) // makes sure option 2 isnt identical to option 1 / option 2
+
+ do{ // option 4 hard part
+
+    switch(option4wordnum){
+        case 1:
+            option4word = "Hello World!";
+            console.log("Option4 Word Chosen : " + option4word);
+            break;
+            case 2:
+                option4word = "Hack Club!";
+            console.log("Option4 Word Chosen : " + option4word);
+                break;
+                case 3:
+                    option4word= "Welcome to the World of CODE";
+            console.log("Option4 Word Chosen : " + option4word);
+                    break;
+                    case 4:
+                        option4word = "Would you Rather?...";
+            console.log("Option4 Word Chosen : " + option4word);
+                        break;
+                        case 5:
+                            option4word = "What is your Name?";
+            console.log("Option4 Word Chosen : " + option4word);
+                            break;
+                            case 6:
+                                option4word = "html is very cool";
+            console.log("Option4 Word Chosen : " + option4word);
+                                break;
+                                case 7:
+                                    option4word = "First Robotics Competition!";
+            console.log("Option4 Word Chosen : " + option4word);
+                                    break;
+                                    case 8:
+                                        option4word = "FIRST!";
+            console.log("Option4 Word Chosen : " + option4word);
+                                        break;
+                                        case 9:
+                                            option4word = "Welcome to my Website";
+            console.log("Option4 Word Chosen : " + option4word);
+                                            break;
+                                            case 10:
+                                                option4word = "Coding is Cool";
+            console.log("Option4 Word Chosen : " + option4word);
+                                                break;
+    }
+
+    switch(option4elementnum){ // chose element 
+        case 1:
+        option4element = "<h1>";
+        option4elementend = "</h1>";
+        console.log("Option 4 Element Chosen : " + option4element);
+        break;
+        case 2:
+            option4element = "<h2>";
+            option4elementend = "</h2>";
+            console.log("Option 4 Element Chosen : " + option4element);
+        break;
+        case 3:
+            option4element = "<h3>";
+            option4elementend = "</h3>";
+            console.log("Option 4 Element Chosen : " + option4element);
+        break;
+        case 4:
+            option4element = "<h4>";
+            option4elementend = "</h4>";
+            console.log("Option 4 Element Chosen : " + option4element);
+        break;
+        case 5:
+            option4element = "<h5>";
+            option4elementend = "</h5>";
+            console.log("Option 4 Element Chosen : " + option4element);
+        break;
+        case 6:
+            option4element = "<h6>";
+            option4elementend = "</h6>";
+            console.log("Option 4 Element Chosen : " + option4element);
+        break;
+        case 7:
+            option4element = "<p>";
+            option4elementend = "</p>";
+            console.log("Option 4 Element Chosen : " + option4element);
+        break;
+      }
+
+      option4final = option4element + " " +  option4word + " " + option4elementend;
+
+ }while(option4final != option1 || option2final || option3final ) // makes sure option 2 isnt identical to option 1 / option 2 / option 3
+
+ console.log("FINAL CHOICES - " + option1 + " " + option2final + " " + option3final + " " + option4final);
     
 }

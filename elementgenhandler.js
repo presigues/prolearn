@@ -317,3 +317,26 @@ while(option4elementnum == elementnum || option4elementnum == option2elementnum 
  console.log("FINAL CHOICES - " + element + wordw + elementend + " " + option2element  +  wordw + option2elementend + " " + option3element  +  wordw  + option3elementend + " " + option4element +  wordw + option4elementend);
     
 }
+
+function thescrambler(){
+    option1 = getRandomInt(1,4);
+
+    option2 = getRandomInt(1,4);
+    while(option1 == option2){
+        option2 = getRandomInt(1,4);
+    }
+    
+    option3 = getRandomInt(1,4);
+    while(option3 == option1 || option3 == option1){
+        option3 = getRandomInt(1,4);
+    }
+
+      
+    option4 = getRandomInt(1,4);
+    while(option4 == option1 || option4 == option2 || option4 == option3){
+        option4 = getRandomInt(1,4);
+    }
+
+    console.log("Option 1 = Position : " + option1 + " " + "Option 2 = Position : " + option2 + " " + "Option 3 = Position : " + option3 + " " + "Option 4 = Position : " + option4)
+    
+}

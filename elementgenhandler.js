@@ -13,13 +13,14 @@ function getRandomInt(min, max) {
 elementword;
   element;
   elementend;
+  elementnum = 0;
   wordw;
 
   
 
   function ElementSelection(){
 
-  let elementnum = getRandomInt(1,7)
+ elementnum = getRandomInt(1,7)
   
 
   switch(elementnum){ // chose element 
@@ -122,6 +123,7 @@ function printFinal(){
 }
 
 
+
 function comp(){
     ElementSelection();
     WordSelection();
@@ -134,7 +136,7 @@ document.getElementById('question').innerHTML = "Write the Sentence : " + wordw 
 
 const answr = element + " " + wordw + " " + elementend;
 
-function thehardpart(elementnum){
+function thehardpart(){
 
     option1 = "element + wordw + elementend";
     console.log(element + wordw + elementend)
@@ -147,8 +149,9 @@ function thehardpart(elementnum){
  option2word = "";
 option2element = "";
 
+option2elementnum = getRandomInt(1,7);
 
-while(option2elementnum == elementnum || option2elementnum == option3elementnum || option2elementnum == option4elementnum){
+while(option2elementnum == elementnum){
     option2elementnum = getRandomInt(1,7);
    }
     // option 2 hard part
@@ -202,8 +205,8 @@ option3word="";
 option3final="";
 
 option3elementnum = 0;
-
-while(option3elementnum == elementnum || option3elementnum == option2elementnum || option3elementnum == option4elementnum){
+option3elementnum = getRandomInt(1,7);
+while(option3elementnum == elementnum || option3elementnum == option2elementnum){
 option3elementnum = getRandomInt(1,7);
 }
 
@@ -257,6 +260,8 @@ option4word="";
 option4final="";
 
 option4elementnum = 0;
+
+option4elementnum = getRandomInt(1,7);
 
 while(option4elementnum == elementnum || option4elementnum == option2elementnum || option4elementnum == option3elementnum){
     option4elementnum = getRandomInt(1,7);

@@ -222,12 +222,12 @@
     background-color: rgb(7, 35, 43);
     border: 2px solid rgb(7, 35, 43);
    
-    transition-duration: 0.8s;
+    transition-duration: 0.4s;
     border-radius: 15px;
 }
 
 #option1:hover{
-    border-color:rgb(26, 196, 134);
+    height: 55px;
 }
 
 #option2{
@@ -242,12 +242,12 @@
     background-color: rgb(7, 35, 43);
     border: 2px solid rgb(7, 35, 43);
    
-    transition-duration: 0.8s;
+    transition-duration: 0.4s;
     border-radius: 15px;
 }
 
 #option2:hover{
-    border-color:rgb(26, 196, 134);
+    height: 55px;
 }
 
 #option3{
@@ -262,12 +262,12 @@
     background-color: rgb(7, 35, 43);
     border: 2px solid rgb(7, 35, 43);
    
-    transition-duration: 0.8s;
+    transition-duration: 0.4s;
     border-radius: 15px;
 }
 
 #option3:hover{
-    border-color:rgb(26, 196, 134);
+    height: 55px;
 }
 
 #option4{
@@ -282,10 +282,10 @@
     background-color: rgb(7, 35, 43);
     border: 2px solid rgb(7, 35, 43);
    
-    transition-duration: 0.8s;
+    transition-duration: 0.4s;
     border-radius: 15px;
 }
 
 #option4:hover{
-    border-color:rgb(26, 196, 134);
+    height: 55px;
 }

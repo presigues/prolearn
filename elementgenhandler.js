@@ -410,8 +410,35 @@ option1 = getRandomInt(1,4);
     }
 }
 
-function theanswer(){
-    
+function theanswer(option1, option2, option3, option4){
+
+    switch(option1){
+
+        case 1:
+            document.getElementById("option1").style.borderColor = "green";
+            document.getElementById("option2").style.borderColor = "red";
+            document.getElementById("option3").style.borderColor = "red";
+            document.getElementById("option4").style.borderColor = "red";
+            break;
+            case 2:
+                document.getElementById("option2").style.borderColor = "green";
+                document.getElementById("option1").style.borderColor = "red";
+                document.getElementById("option3").style.borderColor = "red";
+                document.getElementById("option4").style.borderColor = "red";
+                break;
+                case 3:
+                    document.getElementById("option3").style.borderColor = "green";
+                    document.getElementById("option1").style.borderColor = "red";
+                    document.getElementById("option2").style.borderColor = "red";
+                    document.getElementById("option4").style.borderColor = "red";
+                    break;
+                    case 4:
+                        document.getElementById("option4").style.borderColor = "green";
+                        document.getElementById("option3").style.borderColor = "red";
+                        document.getElementById("option2").style.borderColor = "red";
+                        document.getElementById("option1").style.borderColor = "red";
+                        break;
+}
 }
 
 function reseteverything(){
@@ -419,6 +446,11 @@ function reseteverything(){
     document.getElementById("option2").innerHTML = "...";
     document.getElementById("option3").innerHTML = "...";
     document.getElementById("option4").innerHTML = "...";
+
+    document.getElementById("option4").style.borderColor = "rgb(7, 35, 43)";
+                        document.getElementById("option3").style.borderColor = "rgb(7, 35, 43)";
+                        document.getElementById("option2").style.borderColor = "rgb(7, 35, 43)";
+                        document.getElementById("option1").style.borderColor = "rgb(7, 35, 43)";
 
 }
 

@@ -217,7 +217,7 @@
     width: 400px;
     height: 50px;
     position: fixed;
-    left: 530px;
+    left: 520px;
     top: 405px;
     background-color: rgb(7, 35, 43);
     border: 2px solid rgb(7, 35, 43);
@@ -227,5 +227,65 @@
 }
 
 #option1:hover{
+    border-color:rgb(26, 196, 134);
+}
+
+#option2{
+    font-family: font1;
+    font-size: 20px;
+    color: white;
+    width: 400px;
+    height: 50px;
+    position: fixed;
+    right: 520px;
+    top: 405px;
+    background-color: rgb(7, 35, 43);
+    border: 2px solid rgb(7, 35, 43);
+   
+    transition-duration: 0.8s;
+    border-radius: 15px;
+}
+
+#option2:hover{
+    border-color:rgb(26, 196, 134);
+}
+
+#option3{
+    font-family: font1;
+    font-size: 20px;
+    color: white;
+    width: 400px;
+    height: 50px;
+    position: fixed;
+    left: 520px;
+    top: 475px;
+    background-color: rgb(7, 35, 43);
+    border: 2px solid rgb(7, 35, 43);
+   
+    transition-duration: 0.8s;
+    border-radius: 15px;
+}
+
+#option3:hover{
+    border-color:rgb(26, 196, 134);
+}
+
+#option4{
+    font-family: font1;
+    font-size: 20px;
+    color: white;
+    width: 400px;
+    height: 50px;
+    position: fixed;
+    right: 520px;
+    top: 475px;
+    background-color: rgb(7, 35, 43);
+    border: 2px solid rgb(7, 35, 43);
+   
+    transition-duration: 0.8s;
+    border-radius: 15px;
+}
+
+#option4:hover{
     border-color:rgb(26, 196, 134);
 }

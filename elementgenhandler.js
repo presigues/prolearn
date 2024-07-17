@@ -416,30 +416,121 @@ function theanswer(option1, option2, option3, option4){
 
         case 1:
             document.getElementById("option1").style.borderColor = "green";
-            document.getElementById("option2").style.borderColor = "red";
-            document.getElementById("option3").style.borderColor = "red";
-            document.getElementById("option4").style.borderColor = "red";
+            document.getElementById("option1").style.backgroundColor = "green";
+           
             break;
             case 2:
                 document.getElementById("option2").style.borderColor = "green";
-                document.getElementById("option1").style.borderColor = "red";
-                document.getElementById("option3").style.borderColor = "red";
-                document.getElementById("option4").style.borderColor = "red";
+                document.getElementById("option2").style.backgroundColor = "green";
+                
                 break;
                 case 3:
                     document.getElementById("option3").style.borderColor = "green";
-                    document.getElementById("option1").style.borderColor = "red";
-                    document.getElementById("option2").style.borderColor = "red";
-                    document.getElementById("option4").style.borderColor = "red";
+                    document.getElementById("option3").style.backgroundColor = "green";
+           
                     break;
                     case 4:
                         document.getElementById("option4").style.borderColor = "green";
-                        document.getElementById("option3").style.borderColor = "red";
-                        document.getElementById("option2").style.borderColor = "red";
-                        document.getElementById("option1").style.borderColor = "red";
+                        document.getElementById("option4").style.backgroundColor = "green";
+                     
                         break;
 }
+
+switch(option2){
+
+    case 1:
+        document.getElementById("option1").style.borderColor = "red";
+        
+       
+        break;
+        case 2:
+            document.getElementById("option2").style.borderColor = "red";
+            
+            
+            break;
+            case 3:
+                document.getElementById("option3").style.borderColor = "red";
+                
+       
+                break;
+                case 4:
+                    document.getElementById("option4").style.borderColor = "red";
+                    
+                 
+                    break;
 }
+
+switch(option3){
+
+    case 1:
+        document.getElementById("option1").style.borderColor = "red";
+      
+       
+        break;
+        case 2:
+            document.getElementById("option2").style.borderColor = "red";
+       
+            
+            break;
+            case 3:
+                document.getElementById("option3").style.borderColor = "red";
+               
+       
+                break;
+                case 4:
+                    document.getElementById("option4").style.borderColor = "red";
+                  
+                 
+                    break;
+}
+
+switch(option4){
+
+    case 1:
+        document.getElementById("option1").style.borderColor = "red";
+       
+       
+        break;
+        case 2:
+            document.getElementById("option2").style.borderColor = "red";
+           
+            
+            break;
+            case 3:
+                document.getElementById("option3").style.borderColor = "red";
+               
+       
+                break;
+                case 4:
+                    document.getElementById("option4").style.borderColor = "red";
+                    
+                 
+                    break;
+}
+
+
+
+
+
+
+
+document.getElementById("option1").setAttribute("disabled", "disabled");
+
+document.getElementById("option2").setAttribute("disabled", "disabled");
+
+document.getElementById("option3").setAttribute("disabled", "disabled");
+
+document.getElementById("option4").setAttribute("disabled", "disabled");
+
+}
+
+
+function turnred(option1, option2, option3, option4){
+    
+}
+
+
+
 
 function reseteverything(){
     document.getElementById("option1").innerHTML = "...";
@@ -451,6 +542,16 @@ function reseteverything(){
                         document.getElementById("option3").style.borderColor = "rgb(7, 35, 43)";
                         document.getElementById("option2").style.borderColor = "rgb(7, 35, 43)";
                         document.getElementById("option1").style.borderColor = "rgb(7, 35, 43)";
+
+                        document.getElementById("option1").style.backgroundColor = "rgb(7, 35, 43)";
+                        document.getElementById("option2").style.backgroundColor = "rgb(7, 35, 43)";
+                        document.getElementById("option3").style.backgroundColor = "rgb(7, 35, 43)";
+                        document.getElementById("option4").style.backgroundColor = "rgb(7, 35, 43)";
+
+                        document.getElementById("option1").removeAttribute("disabled");
+                        document.getElementById("option2").removeAttribute("disabled");
+                        document.getElementById("option3").removeAttribute("disabled");
+                        document.getElementById("option4").removeAttribute("disabled");
 
 }
 

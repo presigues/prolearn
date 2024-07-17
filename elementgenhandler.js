@@ -132,7 +132,7 @@ function comp(){
 }
 
 function written(){
-document.getElementById('question').innerHTML = "Write the Sentence : " + wordw + " as a " + elementword;
+document.getElementById('question').innerHTML = "How would you write the sentence : " + wordw + " as a " + elementword + "?";
 }
 
 const answr = element + " " + wordw + " " + elementend;

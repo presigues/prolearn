@@ -129,31 +129,33 @@
     font-family: font1;
     font-size: 20px;
     color: white;
-    width: 200px;
+    width: 260px;
     height: 50px;
     position: fixed;
-    right: 250px;
-    top: 285px;
+    right: 200px;
+    top: 850px;
     background-color: rgb(7, 35, 43);
     border: 2px solid rgb(7, 35, 43);
    
     transition-duration: 0.8s;
     border-radius: 15px;
+    opacity: 1;
 }
 
 #input11comfirm:hover{
-    border-color:rgb(26, 196, 134);
+  height: 60px;
 }
 
 #question{
     font-family: font1;
-    font-size: 24px;
+    font-size: 30px;
     color: white;
     position: fixed;
-    top: 253px;
+    top: 200px;
     left: 550px;
 
-    margin-right: 530px;
+    margin-right: 300px;
+    opacity: 1;
 }
 
 #levels{
@@ -171,12 +173,13 @@
     background-color: rgb(10, 52, 62);
     position: fixed;
     left: 520px;
-    top: 260px;
+    top: 150px;
 
-    width: 850px;
-    height: 100px;
+    width: 1150px;
+    height: 200px;
 
     border-radius: 15px;
+    opacity: 1;
 }
 
 #answr{
@@ -207,6 +210,7 @@
    
     transition-duration: 0.4s;
     border-radius: 15px;
+    opacity: 1;
 }
 
 #option1:hover{
@@ -227,6 +231,7 @@
    
     transition-duration: 0.4s;
     border-radius: 15px;
+    opacity: 1;
 }
 
 #option2:hover{
@@ -247,6 +252,7 @@
    
     transition-duration: 0.4s;
     border-radius: 15px;
+    opacity: 1;
 }
 
 #option3:hover{
@@ -267,6 +273,7 @@
    
     transition-duration: 0.4s;
     border-radius: 15px;
+    opacity: 1;
 }
 
 #option4:hover{

@@ -14,6 +14,7 @@ function uninvis(){
     document.getElementById("quespanel").style.opacity = 1;
     document.getElementById("question").style.opacity = 1;
     document.getElementById("input11comfirm").style.opacity = 1;
+    document.getElementById("start").style.opacity = 0;
  
     
 }

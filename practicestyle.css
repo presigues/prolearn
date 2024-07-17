@@ -139,7 +139,7 @@
    
     transition-duration: 0.8s;
     border-radius: 15px;
-    opacity: 1;
+    opacity: 0;
 }
 
 #input11comfirm:hover{
@@ -155,7 +155,7 @@
     left: 550px;
 
     margin-right: 300px;
-    opacity: 1;
+    opacity: 0;
 }
 
 #levels{
@@ -179,7 +179,7 @@
     height: 200px;
 
     border-radius: 15px;
-    opacity: 1;
+    opacity: 0;
 }
 
 #answr{
@@ -210,7 +210,7 @@
    
     transition-duration: 0.4s;
     border-radius: 15px;
-    opacity: 1;
+    opacity: 0;
 }
 
 #option1:hover{
@@ -231,7 +231,7 @@
    
     transition-duration: 0.4s;
     border-radius: 15px;
-    opacity: 1;
+    opacity: 0;
 }
 
 #option2:hover{
@@ -252,7 +252,7 @@
    
     transition-duration: 0.4s;
     border-radius: 15px;
-    opacity: 1;
+    opacity: 0;
 }
 
 #option3:hover{
@@ -273,9 +273,30 @@
    
     transition-duration: 0.4s;
     border-radius: 15px;
-    opacity: 1;
+    opacity: 0;
 }
 
 #option4:hover{
     height: 185px;
+}
+
+#start{
+    width: 300px;
+    height: 200px;
+    font-family: font1;
+    font-size: 30px;
+    position: fixed;
+    top: 400px;
+    left: 900px;
+    z-index: 1;
+    border-radius: 15px;
+    background-color: rgb(10, 52, 62);
+    color: white;
+    border: 2px solid rgb(10, 52, 62);
+
+    transition-duration: 0.4s;
+}
+
+#start:hover{
+    height: 205px;
 }

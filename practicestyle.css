@@ -100,15 +100,6 @@
 
 
 
-#code{
-    background-color: rgb(10, 52, 62);
-    width: 1200px;
-    height: 700px;
-    position: fixed;
-    left: 500px;
-    top: 150px;
-    border-radius: 15px;
-}
 
 
 #head2{
@@ -165,27 +156,19 @@
     margin-right: 530px;
 }
 
-#elementnav{
+#levels{
     background-color: rgb(7, 35, 43);
+    width:320px;
+    height: 300px;
     position: fixed;
-    left: 500px;
+    left: -15px;
     top: 150px;
-    width: 1200px;
-    height: 80px;
     border-radius: 15px;
-}
 
-#elementtitle{
-    font-family: font1;
-    font-size: 30px;
-    color: white;
-    position: fixed;
-    top: 140px;
-    left: 550px;
 }
 
 #quespanel{
-    background-color: rgb(7, 35, 43);
+    background-color: rgb(10, 52, 62);
     position: fixed;
     left: 520px;
     top: 260px;
@@ -219,8 +202,8 @@
     position: fixed;
     left: 520px;
     top: 405px;
-    background-color: rgb(7, 35, 43);
-    border: 2px solid rgb(7, 35, 43);
+    background-color: rgb(10, 52, 62);
+    border: 2px solid rgb(10, 52, 62);
    
     transition-duration: 0.4s;
     border-radius: 15px;
@@ -239,8 +222,8 @@
     position: fixed;
     right: 195px;
     top: 405px;
-    background-color: rgb(7, 35, 43);
-    border: 2px solid rgb(7, 35, 43);
+    background-color: rgb(10, 52, 62);
+    border: 2px solid rgb(10, 52, 62);
    
     transition-duration: 0.4s;
     border-radius: 15px;
@@ -259,8 +242,8 @@
     position: fixed;
     left: 520px;
     top: 600px;
-    background-color: rgb(7, 35, 43);
-    border: 2px solid rgb(7, 35, 43);
+    background-color: rgb(10, 52, 62);
+    border: 2px solid rgb(10, 52, 62);
    
     transition-duration: 0.4s;
     border-radius: 15px;
@@ -279,8 +262,8 @@
     position: fixed;
     right: 195px;
     top: 600px;
-    background-color: rgb(7, 35, 43);
-    border: 2px solid rgb(7, 35, 43);
+    background-color: rgb(10, 52, 62);
+    border: 2px solid rgb(10, 52, 62);
    
     transition-duration: 0.4s;
     border-radius: 15px;

@@ -13,40 +13,53 @@
     font-family: font1;
     font-size: 20px;
     color: white;
-    width: 300px;
+    width: 320px;
     height: 50px;
     position: fixed;
-    left: 0px;
+    left: -15px;
     top: 150px;
     background-color: rgb(10, 52, 62);
     border: 2px solid rgb(10, 52, 62);
     transition-duration: 0.4s;
+    border-radius: 15px;
 }
 
 #basics1:hover{
     background-color: rgb(2, 7, 12);
     border-color: rgb(2, 7, 12);
-    width: 320px;
+    width: 330px;
 }
 
 #basics2{
     font-family: font1;
     font-size: 20px;
     color: white;
-    width: 300px;
+    width: 320px;
     height: 50px;
     position: fixed;
-    left: 0px;
+    left: -15px;
     top: 200px;
     background-color: rgb(10, 52, 62);
     border: 2px solid rgb(10, 52, 62);
     transition-duration: 0.4s;
+    border-radius: 15px;
 }
 
 #basics2:hover{
     background-color: rgb(2, 7, 12);
     border-color: rgb(2, 7, 12);
-    width: 320px;
+    width: 330px;
+}
+
+#levels{
+    background-color: rgb(7, 35, 43);
+    width:320px;
+    height: 300px;
+    position: fixed;
+    left: -15px;
+    top: 150px;
+    border-radius: 15px;
+
 }
 
 #basics3{
@@ -112,4 +125,28 @@
     background-color: rgb(2, 7, 12);
     border-color: rgb(2, 7, 12);
     
+}
+
+#welcome{
+
+    background-color: rgb(10, 52, 62);
+
+    border-radius: 15px;
+
+    position: fixed;
+    left: 500px;
+    top: 150px;
+
+    width: 1000px;
+    height: 500px;
+
+}
+
+#wel{
+    font-family: font1;
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    left: 300px;
+
 }

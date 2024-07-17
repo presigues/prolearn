@@ -525,10 +525,37 @@ document.getElementById("option4").setAttribute("disabled", "disabled");
 }
 
 
-function turnred(option1, option2, option3, option4){
-    
+function turnred1(option1, option2, option3, option4){
+
+if(option1 != 1){
+    document.getElementById("option1").style.backgroundColor = "red";
 }
 
+}
+
+function turnred2(option1, option2, option3, option4){
+
+    if(option1 != 2){
+        document.getElementById("option2").style.backgroundColor = "red";
+    }
+    
+    }
+
+    function turnred3(option1, option2, option3, option4){
+
+        if(option1 != 3){
+            document.getElementById("option3").style.backgroundColor = "red";
+        }
+        
+        }
+
+        function turnred4(option1, option2, option3, option4){
+
+            if(option1 != 4){
+                document.getElementById("option4").style.backgroundColor = "red";
+            }
+            
+            }
 
 
 
